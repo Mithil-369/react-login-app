@@ -128,7 +128,7 @@ export default function LoginForm() {
               accept=".xlsx,.xls,.pdf"
             />
           </label>
-          <button className="continue-button" onClick={handleReportClick}>
+          <button className="upload-btn" onClick={handleReportClick}>
             Report
           </button>
           {tableData.length > 0 && (
